@@ -1,0 +1,35 @@
+body{
+    box-sizing: border;
+}
+.tv{
+    background-color:#231c1d ;
+    width: 50%;
+    height: 66vh;
+    padding:15px;
+    margin: 10px auto;
+}
+.screen{
+    background-color: grey;
+    padding: 10px;  
+}
+.screen .program{
+    width: 100%;
+    height: 100%;
+}
+.tv .switch{
+    position: absolute;
+    right: 26%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 5px;
+}
+
+.icon{
+    display: absolute;
+    color:white;
+    text-align: center;
+    padding: 0 auto;
+    font-size: 1.7em;  
+}

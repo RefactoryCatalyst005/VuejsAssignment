@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+
+<body>
+    <div id="tv">
+        <div class="tv">
+            <div class="screen">
+                <img  v-if="signal" class="program" src="black.jpg">
+                <img v-else class="program" src="tenor.gif">
+            </div>
+            <button class="switch" v-on:click="toggle">
+                <div v-if="signal" class="icon">O</div>
+                <div v-else class="icon">|</div>
+            </button>
+        </div>
+    </div>
+</body>
+<script src="vue.js"></script>
+<script src="assigment.js"></script>
+
+</html>
+
